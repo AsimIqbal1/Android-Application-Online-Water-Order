@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "201140500523",
+    "firebase_url": "https://watersystem-285a9.firebaseio.com",
+    "project_id": "watersystem-285a9",
+    "storage_bucket": "watersystem-285a9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:201140500523:android:365574670142f110",
+        "android_client_info": {
+          "package_name": "com.watersystem.client"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "201140500523-04js8lgqecnbjj5l9evb81e9m70aihr2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.watersystem.client",
+            "certificate_hash": "a1fd77c51a75e114bfd696f7ec0cb9d5edf6e363"
+          }
+        },
+        {
+          "client_id": "201140500523-mr1sgh0vudeimcd8cvbt6t07nfd1e8c9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD36mcSNuWOyOci9cM_t_edTVWvMrXcU_s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "201140500523-mr1sgh0vudeimcd8cvbt6t07nfd1e8c9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

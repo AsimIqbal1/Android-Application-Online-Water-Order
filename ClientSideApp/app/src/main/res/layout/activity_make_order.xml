@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100"
+    tools:context=".ActivityMakeOrder">
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tab_layout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:tabGravity="fill"
+        app:tabMode="scrollable"
+        android:layout_weight="15"
+        app:tabTextColor="#ffffff"
+        app:tabBackground="@color/colorPrimaryDark"
+        app:tabIndicatorColor="#a5d9e2"
+        android:background="#01599aaa">
+    </android.support.design.widget.TabLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_weight="65"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+    </android.support.v4.view.ViewPager>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="12"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="ADD"
+            android:layout_marginEnd="20dp"/>
+
+        <TextView
+            android:id="@+id/tv_orderQuantity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00"
+            android:layout_gravity="center_vertical"
+            android:textSize="40sp"/>
+
+        <Button
+            android:id="@+id/btn_remove"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_gravity="center_vertical"
+            android:text="REMOVE"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_makeOrder"
+        android:text="ORDER"
+        android:layout_weight="8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!--<ImageView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="300dp"-->
+        <!--android:src="waterpng"/>-->
+    <!--<LinearLayout-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginBottom="50dp"-->
+        <!--android:layout_gravity="center_horizontal"-->
+        <!--android:orientation="horizontal">-->
+
+        <!--<Button-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="ADD"-->
+            <!--android:layout_marginEnd="20dp"/>-->
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="01"-->
+            <!--android:textSize="40sp"/>-->
+
+        <!--<Button-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginStart="20dp"-->
+            <!--android:text="REMOVE"/>-->
+
+    <!--</LinearLayout>-->
+
+
+</LinearLayout>
